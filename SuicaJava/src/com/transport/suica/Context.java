@@ -49,10 +49,4 @@ public class Context {
     public static final Map<Pair<Zone, Zone>, Integer> COST = new HashMap<>();
     
     
-    
-    public static void axiomTwoContextOne() {
-        for (Pair<Location, Location> com: COM) {
-            assert com.first()!=com.second();
-        }
-    }
 }
